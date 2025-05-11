@@ -1,0 +1,7 @@
+services:
+  r4r:
+    build: .
+    container_name: r4r
+    env_file:
+      - .env
+    command: ["sh", "./entrypoint.sh"]
