@@ -9,3 +9,6 @@
 4. Uses Ra-AID to generate changes.
 5. Commits and pushes the changes.
 6. Creates a pull request.
+
+## Running this project
+Just copy the .env.example file to .env and fill in the values. Then run `docker compose up`.
